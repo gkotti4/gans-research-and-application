@@ -15,6 +15,9 @@ import matplotlib.pyplot as plt
 
 
 #                        === DEFAULT PARAMETERS ===
+MNIST_DATASET_ROOT = "MNIST_CSV"
+MNIST_DATASET_FILENAME = "mnist_train.csv"
+
 MODEL_DATA_ROOT = "Model Data/"
 MODEL_DATA_FILENAME = "mnist_gan_weights.npz"
 
@@ -52,7 +55,7 @@ args = parser.parse_args()
 script_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Build a path to the dataset relative to the script
-data_path = os.path.join(script_dir, "MNIST_CSV", "mnist_test.csv")
+data_path = os.path.join(script_dir, MNIST_DATASET_ROOT, MNIST_DATASET_FILENAME)
 
 # Load the dataset
 data = np.loadtxt(data_path, delimiter=",", skiprows=1)
