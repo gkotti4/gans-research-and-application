@@ -57,7 +57,7 @@ data_path = os.path.join(script_dir, "MNIST_CSV", "mnist_test.csv")
 data = np.loadtxt(data_path, delimiter=",", skiprows=1)
 
 
-# Shuffle dataset images (for training size < dataset_size)
+# Shuffle dataset images
 #np.random.shuffle(data)
 
 # Separate inputs and labels and set parameters
