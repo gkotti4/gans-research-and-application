@@ -1,2 +1,2 @@
 # GANs_Research-Project
-Generative Adversarial Networks research project exploring NumPy, DCGAN, and optimized GAN implementations for procedural content generation (moving toward 2D Tile Generation).
+Generative Adversarial Networks (GAN) research project exploring NumPy-based, DCGAN, and optimized GAN implementations for procedural content generation, with applications in 2D tile and texture synthesis.
